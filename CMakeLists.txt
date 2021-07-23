@@ -13,6 +13,8 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   pcl_ros
   tf2_ros
+  nav_msgs
+  message_filters
 )
 
 ###################################
@@ -25,6 +27,8 @@ catkin_package(
     sensor_msgs
     tf2_msgs
     pcl_ros
+    nav_msgs
+    message_filters
 )
 
 ###########
@@ -69,4 +73,3 @@ install(TARGETS ${PROJECT_NAME}
 # install(DIRECTORY launch config rviz
 #   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 # )
-
